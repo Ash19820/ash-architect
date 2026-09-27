@@ -4,18 +4,6 @@ A high-fidelity editorial architecture and spatial design portfolio built with N
 
 Recreated with architectural discipline inspired by minimalist spatial practices (e.g. Altun Architects) — featuring interactive 3D sculptures, live timezone clocks, expandable project dossiers, services matrix, and philosophy manifestos.
 
-### Built With
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lucide-F56565?style=flat-square&logo=lucide&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-</p>
----
-### Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white&labelColor=000000" />
@@ -35,6 +23,23 @@ Recreated with architectural discipline inspired by minimalist spatial practices
   <img src="https://cdn.simpleicons.org/framer/0055FF" width="20" /> Motion&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/typescript/3178C6" width="20" /> TypeScript
 </p>
+
+### Tech Stack
+
+<p align="left">
+  <img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" width="26" height="26" alt="Next.js" title="Next.js" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/threedotjs/FFFFFF" width="26" height="26" alt="Three.js" title="Three.js" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/tailwindcss/38BDF8" width="26" height="26" alt="Tailwind CSS" title="Tailwind CSS" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/lucide/FFFFFF" width="26" height="26" alt="Lucide" title="Lucide" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/framer/FFFFFF" width="26" height="26" alt="Framer Motion" title="Framer Motion" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" width="26" height="26" alt="TypeScript" title="TypeScript" />
+</p>
+
 ## Website : 
 http://architectash.vercel.app
 
