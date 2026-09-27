@@ -1,26 +1,139 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #060606;
+  --foreground: #f2f2f2;
+  --muted: #888888;
+  --accent-cyan: #9BD4D7;
+  --border-dark: rgba(255, 255, 255, 0.08);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-border-dark: var(--border-dark);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: #060606;
+  color: #f2f2f2;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #060606;
+  color: #f2f2f2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #9BD4D7;
+  selection-color: #000000;
+}
+
+::selection {
+  background: #9BD4D7;
+  color: #000;
+}
+
+/* Monospace font styling for architectural metadata */
+.font-editorial-mono {
+  font-family: "IBM Plex Mono", "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Display editorial headings */
+.font-display {
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+/* Gradient shimmer animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-text {
+  background: linear-gradient(270deg, #BBA8E4 19.52%, #DD69FF 39.27%, #EF58B2 59.28%, #FF4243 79.26%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 3s ease infinite;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(90deg, #ff6a00, #ee0979, #ff6a00);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 2s ease infinite;
+}
+
+/* Chevron scroll indicator */
+.chevron-indicator span {
+  width: 14px;
+  height: 14px;
+  display: block;
+  border-right: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.7);
+  transform: rotate(45deg);
+  margin: -6px;
+  animation: chevronFade 2s infinite ease-in-out;
+}
+
+.chevron-indicator span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.chevron-indicator span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes chevronFade {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-4px, -4px);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(45deg) translate(2px, 2px);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+}
+
+/* Infinite Marquee */
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #060606;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9BD4D7;
 }
