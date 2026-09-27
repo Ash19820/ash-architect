@@ -4,6 +4,9 @@ A high-fidelity editorial architecture and spatial design portfolio built with N
 
 Recreated with architectural discipline inspired by minimalist spatial practices (e.g. Altun Architects) — featuring interactive 3D sculptures, live timezone clocks, expandable project dossiers, services matrix, and philosophy manifestos.
 
+![Top Langs](https://vercel.app)
+
+
 ---
 
 ## Website : 
