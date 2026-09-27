@@ -33,7 +33,7 @@ http://architectash.vercel.app
 - **Live Utility Widgets & Navigation**: Real-time IST (UTC+05:30) studio clock, full-screen minimalist menu overlay, interactive contact modal with spatial project inquiry form, and custom spring cursor.
 - **Zero-Dependency Static Export**: Configured for static HTML export (`out/`) with Netlify headers & redirects for high-speed global CDN delivery.
 
----## ⚡ Built With
+## ⚡ Built With
 
 A modern stack focused on performance, 3D visuals, and fluid interaction.
 
