@@ -43,7 +43,7 @@ http://architectash.vercel.app
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <repo url>
 cd arch
 
 # Install dependencies
