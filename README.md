@@ -6,6 +6,8 @@ Recreated with architectural discipline inspired by minimalist spatial practices
 
 ---
 
+## Website : architectash.vercel.app
+
 ## ✨ Features
 
 - **Procedural 3D Hero Sculpture**: Real-time Three.js metallic torus knot with ACES Filmic tone mapping, custom directional & ambient lighting, continuous kinetic rotation, and interactive mouse parallax.
@@ -106,4 +108,4 @@ The static output is generated in the `out/` directory, ready to drag-and-drop o
 
 ## 📄 License
 
-MIT © [Arun Architects](https://arunarchitects.com)
+MIT © 
