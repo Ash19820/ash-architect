@@ -4,8 +4,16 @@ A high-fidelity editorial architecture and spatial design portfolio built with N
 
 Recreated with architectural discipline inspired by minimalist spatial practices (e.g. Altun Architects) — featuring interactive 3D sculptures, live timezone clocks, expandable project dossiers, services matrix, and philosophy manifestos.
 
-![Next.js](https://shields.io) ![Three.js](https://shields.io) ![Tailwind CSS](https://shields.io) ![Lucide React](https://shields.io) ![Framer Motion](https://shields.io) ![TypeScript](https://shields.io)
+### Built With
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lucide-F56565?style=flat-square&logo=lucide&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+</p>
 ---
 
 ## Website : 
