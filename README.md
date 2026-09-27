@@ -4,26 +4,6 @@ A high-fidelity editorial architecture and spatial design portfolio built with N
 
 Recreated with architectural discipline inspired by minimalist spatial practices (e.g. Altun Architects) — featuring interactive 3D sculptures, live timezone clocks, expandable project dossiers, services matrix, and philosophy manifestos.
 
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white&labelColor=06B6D4" />
-  <img src="https://img.shields.io/badge/Lucide-F56565?style=flat&logo=lucide&logoColor=white&labelColor=F56565" />
-  <img src="https://img.shields.io/badge/Motion-0055FF?style=flat&logo=framer&logoColor=white&labelColor=0055FF" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white&labelColor=3178C6" />
-</p>
-### Tech Stack
-
-<p align="left">
-  <img src="https://cdn.simpleicons.org/nextdotjs/000000" width="20" /> Next.js&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/threedotjs/000000" width="20" /> Three.js&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" width="20" /> Tailwind&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/lucide/F56565" width="20" /> Lucide&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/framer/0055FF" width="20" /> Motion&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/typescript/3178C6" width="20" /> TypeScript
-</p>
-
 ### Tech Stack
 
 <p align="left">
