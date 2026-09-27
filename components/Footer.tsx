@@ -67,7 +67,7 @@ export function Footer() {
                 rel="noreferrer"
                 className="hover:text-white transition-colors w-fit"
               >
-                TOPENI SHEQI [PRINCIPAL ARCHITECT]
+                ARUN [PRINCIPAL ARCHITECT]
               </a>
             </div>
           </div>
@@ -97,7 +97,7 @@ export function Footer() {
         {/* Bottom Bar: Brand Wordmark, Credits & Back to Top */}
         <div className="pt-10 flex flex-col md:flex-row items-center justify-between gap-6 text-[10px] font-editorial-mono tracking-[0.2em] text-white/40 uppercase">
           <div className="flex items-center gap-4">
-            <span>© {new Date().getFullYear()} TOPE ARCHITECTS</span>
+            <span>© {new Date().getFullYear()} ARUN ARCHITECTS</span>
             <span>•</span>
             <span>ALL RIGHTS RESERVED</span>
           </div>

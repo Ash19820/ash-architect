@@ -47,7 +47,7 @@ export function PhilosophySection() {
 
         {/* Small architectural sign-off */}
         <div className="mt-12 flex items-center gap-3 text-[11px] font-editorial-mono tracking-[0.25em] text-white/30 uppercase">
-          <span>TOPE ARCHITECTS</span>
+          <span>ARUN ARCHITECTS</span>
           <span>//</span>
           <span>SPATIAL MANIFESTO</span>
         </div>

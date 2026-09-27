@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TOPE ARCHITECTS — More Than Space",
-  description: "Internationally renowned multidisciplinary architecture and spatial design studio based in Istanbul.",
-  keywords: ["architecture", "spatial design", "interiors", "editorial architecture", "tope architects"],
+  title: "ARUN ARCHITECTS — More Than Space",
+  description: "Portfolio of Arun — an internationally renowned architect and spatial designer based in India.",
+  keywords: ["architecture", "spatial design", "interiors", "editorial architecture", "arun", "arun architects"],
 };
 
 export default function RootLayout({

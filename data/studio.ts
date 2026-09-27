@@ -8,25 +8,25 @@ export interface Founder {
 }
 
 export const studioInfo = {
-  name: "TOPE ARCHITECTS",
-  shortName: "TOPE",
+  name: "ARUN ARCHITECTS",
+  shortName: "ARUN",
   location: "Chanakyapuri, New Delhi, India",
   phone: "+91 98100 12345",
-  emailGeneral: "info@topearchitects.com",
-  emailWork: "work@topearchitects.com",
+  emailGeneral: "info@arunarchitects.com",
+  emailWork: "work@arunarchitects.com",
   tagline: "MORE THAN SPACE — IT'S FUTURE",
-  manifestoLead: "TOPE is an internationally renowned multidisciplinary design studio working across India and globally in the fields of architecture, interiors, product and experiential design, with a reputation for thoughtfulness, experimentation and craftsmanship.",
+  manifestoLead: "Arun is an internationally renowned architect and spatial designer working across India and globally in the fields of architecture, interiors, product and experiential design, with a reputation for thoughtfulness, experimentation and craftsmanship.",
   manifestoBody: "We do not design spaces. We create experiences. We are aware that people spend most of their lives indoors, and it is a great responsibility for us to appreciate every minute. We thrive under this pressure!",
   philosophyLead: "EVERY PLACE HAS A DIFFERENT (EXPERIENCE)",
   philosophyStatement: "IT IS THE CREATION OF A LIFE. IT IS SOMETHING THAT AWAKENS A REACTION IN YOU. FOR SOME IT IS THE MIRACLE OF HANDS. FOR SOME IT IS THE MIRACLE OF THE MIND, FOR SOME IT IS A TECHNICAL MIRACLE. IN FACT, DESIGN IS THE THING THAT TELLS US EVERYTHING, IT IS THE EXPERIENCES & SPIRIT OF THE PEOPLE.",
   ctaHeadline: "START CREATING PLACES THAT PEOPLE DIVE INTO NEW EXPERIENCES",
   founders: [
     {
-      name: "Topeni Sheqi",
+      name: "Arun",
       role: "Principal Architect & Founder",
-      bio: "Shapes the spatial ethos of TOPE — balancing sculptural ambition with grounded architectural precision and human emotion.",
+      bio: "Shapes the spatial ethos of ARUN — balancing sculptural ambition with grounded architectural precision and human emotion.",
       specialty: "Principal Architect & Spatial Vision",
-      image: "/images/topeni-sheqi-v2.jpg",
+      image: "/images/arun.png",
       social: "https://www.linkedin.com"
     }
   ]

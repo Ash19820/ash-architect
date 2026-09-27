@@ -41,7 +41,7 @@ export function MenuOverlay({ isOpen, onClose, onOpenContact }: MenuOverlayProps
       <div className="flex items-center justify-between border-b border-white/[0.08] pb-6">
         <div className="flex items-center gap-3">
           <span className="font-editorial-mono text-sm tracking-[0.3em] text-white">
-            TOPE ARCHITECTS
+            ARUN ARCHITECTS
           </span>
           <span className="w-1.5 h-1.5 rounded-full bg-[#9BD4D7]" />
         </div>

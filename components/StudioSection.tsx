@@ -59,7 +59,7 @@ export function StudioSection() {
             <div className="relative aspect-[4/5] w-full overflow-hidden bg-white/[0.02] group">
               <Image
                 src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
-                alt="TOPE Architects Studio Space"
+                alt="ARUN Architects Studio Space"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover grayscale contrast-110 brightness-90 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700 ease-out"

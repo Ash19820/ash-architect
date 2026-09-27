@@ -33,12 +33,12 @@ export function Header({ onOpenMenu, onOpenContact }: HeaderProps) {
         <Link
           href="/"
           className="group flex items-center gap-3 focus:outline-none"
-          aria-label="TOPE Architects Home"
+          aria-label="ARUN Architects Home"
         >
           <div className="flex flex-col">
             <div className="flex items-center gap-1.5">
               <span className="font-editorial-mono text-base md:text-lg font-light tracking-[0.35em] text-white group-hover:text-[#9BD4D7] transition-colors duration-300">
-                TOPE
+                ARUN
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#9BD4D7] inline-block mb-1 group-hover:scale-125 transition-transform" />
             </div>

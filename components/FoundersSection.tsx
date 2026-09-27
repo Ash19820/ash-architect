@@ -77,7 +77,7 @@ export function FoundersSection() {
               </div>
 
               <p className="text-xs md:text-sm font-editorial-mono text-white/60 leading-relaxed font-light mt-6 max-w-xl">
-                {founder.bio} With deep inquiry into spatial phenomenology and contemporary structural engineering, Topeni Sheqi oversees every commission from early envelope morphology to tactile fitout details.
+                {founder.bio} With deep inquiry into spatial phenomenology and contemporary structural engineering, {founder.name} oversees every commission from early envelope morphology to tactile fitout details.
               </p>
             </div>
 
