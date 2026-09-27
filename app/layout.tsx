@@ -13,8 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark bg-[#060606] text-[#f2f2f2]">
+    <html lang="en" className="dark bg-[#060606] text-[#f2f2f2]" suppressHydrationWarning>
       <head>
+        <meta name="color-scheme" content="dark" />
+        <meta name="darkreader-lock" content="" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -22,7 +24,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-[#060606] text-[#f2f2f2] antialiased selection:bg-[#9BD4D7] selection:text-black">
+      <body className="min-h-screen bg-[#060606] text-[#f2f2f2] antialiased selection:bg-[#9BD4D7] selection:text-black" suppressHydrationWarning>
         {children}
       </body>
     </html>

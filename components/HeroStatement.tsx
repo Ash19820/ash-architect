@@ -46,7 +46,7 @@ export function HeroStatement() {
   }, [displayedText, isDeleting, currentWordIndex]);
 
   return (
-    <div className="flex flex-col items-center justify-center text-center select-none z-10 px-4 sm:px-8 md:px-12 w-full max-w-5xl">
+    <div className="flex flex-col items-center justify-center text-center select-none z-10 px-4 sm:px-8 md:px-12 w-full max-w-5xl pointer-events-none">
       {/* Small top editorial eyebrow */}
       <div className="mb-4 inline-flex items-center gap-2.5 sm:gap-3">
         <span className="h-[1px] w-4 sm:w-6 bg-white/20" />

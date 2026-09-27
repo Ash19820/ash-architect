@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { SideTab } from "@/components/SideTab";
@@ -15,6 +15,7 @@ import { Footer } from "@/components/Footer";
 import { MenuOverlay } from "@/components/MenuOverlay";
 import { ContactModal } from "@/components/ContactModal";
 import { CustomCursor } from "@/components/CustomCursor";
+import { IntroPreloader } from "@/components/IntroPreloader";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,6 +23,9 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen bg-[#060606] text-[#f2f2f2] overflow-x-hidden selection:bg-[#9BD4D7] selection:text-black">
+      {/* Editorial Scattered Logo Preloader Intro */}
+      <IntroPreloader />
+
       {/* Custom difference cursor */}
       <CustomCursor />
 

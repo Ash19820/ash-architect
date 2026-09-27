@@ -2,7 +2,12 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { ClockWidget } from "./ClockWidget";
+import dynamic from "next/dynamic";
+
+const ClockWidget = dynamic(
+  () => import("./ClockWidget").then((mod) => mod.ClockWidget),
+  { ssr: false }
+);
 
 interface HeaderProps {
   onOpenMenu?: () => void;
@@ -54,27 +59,28 @@ export function Header({ onOpenMenu, onOpenContact }: HeaderProps) {
         </div>
 
         {/* Right Navigation & Controls */}
-        <div className="flex items-center gap-6 md:gap-8">
+        <div className="flex items-center gap-7 md:gap-9">
           <button
             onClick={onOpenContact}
-            className="hidden sm:inline-flex text-[11px] font-editorial-mono uppercase tracking-[0.22em] text-white/80 hover:text-white transition-colors relative py-1 group"
+            className="hidden sm:inline-flex items-center gap-2 text-sm md:text-base font-editorial-mono uppercase tracking-[0.24em] text-white/80 hover:text-white transition-colors relative py-1.5 group focus:outline-none"
           >
-            CONTACT US
-            <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#9BD4D7] transition-all duration-300 group-hover:w-full" />
+            <span>CONTACT US</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-[#9BD4D7] opacity-60 group-hover:opacity-100 transition-opacity" />
+            <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#9BD4D7] transition-all duration-300 group-hover:w-full" />
           </button>
 
-          {/* Minimal Editorial Menu Button */}
+          {/* Minimal Borderless Menu Button with Larger Size */}
           <button
             onClick={onOpenMenu}
-            className="flex items-center gap-3 p-2 -mr-2 text-white/90 hover:text-white transition-colors group focus:outline-none"
+            className="flex items-center gap-3.5 py-1.5 text-white/90 hover:text-white transition-colors group focus:outline-none"
             aria-label="Open Navigation Menu"
           >
-            <span className="text-[11px] font-editorial-mono tracking-[0.2em] uppercase hidden md:inline-block text-white/60 group-hover:text-white transition-colors">
+            <span className="text-sm md:text-base font-editorial-mono tracking-[0.24em] uppercase text-white/70 group-hover:text-white transition-colors">
               MENU
             </span>
-            <div className="flex flex-col gap-1.5 items-end justify-center w-6">
-              <span className="w-6 h-[1px] bg-white group-hover:bg-[#9BD4D7] transition-all duration-300 group-hover:w-5" />
-              <span className="w-4 h-[1px] bg-white group-hover:bg-[#9BD4D7] transition-all duration-300 group-hover:w-6" />
+            <div className="flex flex-col gap-1.5 items-end justify-center w-7">
+              <span className="w-7 h-[1.5px] bg-white group-hover:bg-[#9BD4D7] transition-all duration-300 group-hover:w-5" />
+              <span className="w-5 h-[1.5px] bg-white group-hover:bg-[#9BD4D7] transition-all duration-300 group-hover:w-7" />
             </div>
           </button>
         </div>
