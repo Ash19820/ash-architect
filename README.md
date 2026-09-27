@@ -33,17 +33,16 @@ http://architectash.vercel.app
 - **Live Utility Widgets & Navigation**: Real-time IST (UTC+05:30) studio clock, full-screen minimalist menu overlay, interactive contact modal with spatial project inquiry form, and custom spring cursor.
 - **Zero-Dependency Static Export**: Configured for static HTML export (`out/`) with Netlify headers & redirects for high-speed global CDN delivery.
 
----
+---## ⚡ Built With
 
-## 🛠 Tech Stack
+A modern stack focused on performance, 3D visuals, and fluid interaction.
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
-- **3D Graphics**: [Three.js](https://threejs.org/) (`@types/three`)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Animation**: [Framer Motion](https://www.framer.com/motion/)
-- **Language**: TypeScript
-
+- **Next.js 16** · Application framework
+- **Three.js** · 3D rendering
+- **Tailwind CSS v4** · UI styling
+- **Lucide React** · Interface icons
+- **Framer Motion** · Motion & transitions
+- **TypeScript** · Type-safe development
 ---
 
 ## 🚀 Getting Started
