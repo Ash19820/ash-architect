@@ -6,7 +6,8 @@ Recreated with architectural discipline inspired by minimalist spatial practices
 
 ---
 
-## Website : architectash.vercel.app
+## Website : 
+http://architectash.vercel.app
 
 ## ✨ Features
 
